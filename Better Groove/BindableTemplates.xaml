@@ -1,0 +1,9 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Better_Groove"
+	x:Class="Better_Groove.BindableTemplates">
+	<DataTemplate x:Key="AlbumTemplate" x:DataType="local:AlbumItem">
+		<TextBlock Text="{x:Bind Name,Mode=OneTime}"/>
+	</DataTemplate>
+</ResourceDictionary>
